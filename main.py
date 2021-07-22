@@ -11,4 +11,4 @@ def lookup(word):
 
 word = input("Enter word: ")
 
-print(lookup(word))
+print(lookup(word.lower()))
